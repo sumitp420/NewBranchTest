@@ -32,6 +32,7 @@ public class HomePageTest extends TestBase{
 		contactsPage = new ContactsPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		//test
 	}
 	
 	@Test(priority=1)

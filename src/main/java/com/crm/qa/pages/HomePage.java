@@ -30,6 +30,7 @@ public class HomePage extends TestBase{
 	
 	public String verifyHomePageTitle(){
 		return driver.getTitle();
+		//a
 	}
 	
 	public boolean verifyCorrectUserName(){
@@ -43,7 +44,8 @@ public class HomePage extends TestBase{
 	
 	public DealsPage clickOnDealsLink(){
 		dealsLink.click();
-		return new DealsPage();		
+		return new DealsPage();	
+		//a
 	}
 	
 	public TasksPage clickOnTasksLink(){
