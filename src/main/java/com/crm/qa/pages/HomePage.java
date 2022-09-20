@@ -30,6 +30,7 @@ public class HomePage extends TestBase{
 	
 	public String verifyHomePageTitle(){
 		return driver.getTitle();
+		//a
 	}
 	
 	public boolean verifyCorrectUserName(){
