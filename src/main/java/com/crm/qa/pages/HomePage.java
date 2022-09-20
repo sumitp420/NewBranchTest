@@ -43,7 +43,8 @@ public class HomePage extends TestBase{
 	
 	public DealsPage clickOnDealsLink(){
 		dealsLink.click();
-		return new DealsPage();		
+		return new DealsPage();	
+		//a
 	}
 	
 	public TasksPage clickOnTasksLink(){
